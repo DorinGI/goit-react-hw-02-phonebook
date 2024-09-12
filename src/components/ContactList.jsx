@@ -1,9 +1,10 @@
 import React from 'react';
 import ContactItem from './ContactItem.jsx';
+import style from './Contact.module.css';
 
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
-    <ul className="contact-list">
+    <ul className={style.contactList}>
       {contacts.map(contact => (
         <ContactItem
           key={contact.id}

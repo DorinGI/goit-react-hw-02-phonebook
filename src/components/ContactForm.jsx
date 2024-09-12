@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import style from './Contact.module.css';
 class ContactForm extends Component {
   state = {
     name: '',
@@ -18,7 +19,7 @@ class ContactForm extends Component {
 
   render() {
     return (
-      <form className="form" onSubmit={this.handleSubmit}>
+      <form className={style.form} onSubmit={this.handleSubmit}>
         <input
           type="text"
           name="name"
@@ -37,7 +38,7 @@ class ContactForm extends Component {
           title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
           required
         />
-        <button type="submit" className="button">
+        <button type="submit" className={style.button}>
           Add Contact
         </button>
       </form>

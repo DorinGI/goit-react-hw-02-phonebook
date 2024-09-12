@@ -48,13 +48,13 @@ h2 {
   background-color: #0056b3;
 }
 
-.contact-list {
+.contactList {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.contact-item {
+.contactItem {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,22 +66,22 @@ h2 {
   transition: box-shadow 0.2s;
 }
 
-.contact-item:hover {
+.contact-Item:hover {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 }
 
-.contact-name {
+.contactName {
   font-size: 16px;
   font-weight: bold;
   color: #333;
 }
 
-.contact-number {
+.contactNumber {
   font-size: 14px;
   color: #555;
 }
 
-.delete-button {
+.deleteButton {
   padding: 5px 10px;
   font-size: 14px;
   color: #fff;
@@ -92,7 +92,7 @@ h2 {
   transition: background-color 0.2s;
 }
 
-.delete-button:hover {
+.deleteButton:hover {
   background-color: #c82333;
 }
 
